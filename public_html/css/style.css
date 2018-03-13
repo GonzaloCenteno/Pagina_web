@@ -175,6 +175,70 @@ h1, h2, h3, h4, h5, h6 {
     max-height: 40px;
   }
 }
+/*----------------------------------------------
+              MENU PRINCIPAL
+----------------------------------------------*/
+
+#mainNav {
+  background-color: #ffffff;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 9px;
+  right: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: black;
+  border: 0;
+  background-color: #fed136;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+  color: #fed136;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #90bbd6;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 80%;
+  font-weight: 700;
+  padding: 0.75em 0.6em;
+  letter-spacing: 1px;
+  color: black;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+
+.navbar-brand-logo{
+    padding: 0;
+}
+.navbar-brand-logo .logo{
+    border: 1px solid #333333;
+    /* border-radius: 50%; */
+    float: left;
+    overflow: hidden;
+    /* width: 60px; */
+}
+.navbar .navbar-brand-logo .brand{
+    color: #FFFFFF;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 10px;
+    /* margin-top: 10px; */
+    /* width: 60px; */
+}
+.navbar-default .navbar-brand-logo .brand{
+    color: #555;
+}
 
 /*--------------------------------------------------------------
 # Intro Section
